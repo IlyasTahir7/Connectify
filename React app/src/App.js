@@ -7,10 +7,10 @@ function App() {
   return (
   <>
 
- {/* <Profile/> */}
+ <Profile/> 
  {/* <Home/> */}
 {/* <Login/> */}
-<Register/>
+{/*<Register/>*/}
   </>
   );
 }
