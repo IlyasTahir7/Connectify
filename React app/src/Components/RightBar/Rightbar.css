@@ -1,0 +1,87 @@
+/* Apply scrollbar to .rightbar */
+.rightbar {
+    flex: 3;
+    max-height: calc(100vh - 50px); /* Adjust the max height based on your layout */
+
+    overflow-y: scroll;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: gray white; /* For Firefox */
+  }
+  
+  .rightbar::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  .rightbar::-webkit-scrollbar-thumb {
+    background-color: gray; /* Color of the thumb */
+    border-radius: 4px; /* Rounded corners for the thumb */
+  }
+  
+  .rightbar::-webkit-scrollbar-track {
+    background-color: #D3D3D3; /* Color of the track */
+  }
+  
+  
+
+.rightbarbirthdaycontainer{
+margin: 10px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+}
+.rightbarbirthdayimg{
+    height: 40px;
+    width: 40px;
+}
+.rightbarbirthdaytext{
+    font-size: 15px;
+}
+.rightbarad{
+margin: 25px 10px 25px 10px;
+}
+.rightbaradimg{
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+}
+.rightbarfriend{
+
+}
+.rightbartitle{
+margin: 0px 0px 20px 10px;
+}
+.rightbarfriendlist{
+    padding: 0px;
+
+    margin: 0px;
+}
+
+@media (max-width: 768px) {
+    .rightbar {
+      max-height: calc(100vh - 70px); /* Adjust the max height for smaller screens */
+    }
+  }
+  
+  /* Adjust styles for small screens (e.g., mobile devices) */
+  @media (max-width: 375px) {
+    .rightbar {
+      max-height: calc(100vh - 90px); /* Adjust the max height for even smaller screens */
+    }
+  }
+  @media (max-width: 720px) {
+    .rightbar {
+      flex: 2;
+      position: relative;
+      top: 65px; 
+      /* Adjust the height based on the navbar height */
+    }
+    .rightbaronlinetag{
+
+        height: 5px;
+        width: 5px;
+        border-radius: 50%;
+        position: relative;
+        top: -15px;
+        left: -12px;
+        border: 2px solid #0FFF50;
+    }
+  }  

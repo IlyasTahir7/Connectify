@@ -1,0 +1,116 @@
+.profile{
+    display:flex;
+}
+.profileright {
+    flex: 10;
+    max-height: calc(100vh - 50px); /* Adjust the max height based on your layout */
+    overflow-y: scroll;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: gray white; /* For Firefox */
+  }
+  
+  .profileright::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  .profileright::-webkit-scrollbar-thumb {
+    background-color: gray; /* Color of the thumb */
+    border-radius: 4px; /* Rounded corners for the thumb */
+  }
+  
+  .profileright::-webkit-scrollbar-track {
+    background-color: #D3D3D3; /* Color of the track */
+  }
+  
+.profilecontainer{
+    width: 100%;
+    height: 320px;
+    position: relative;
+}
+.profilecoverimg{
+height: 250px;
+width: 100%;
+object-fit: cover;
+}
+.profileuserimg{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 150px;
+    object-fit: cover;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.profileinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profileusername{
+    font-size: 25px;
+}
+.profileuserdesc{
+    font-size: 15px;
+    font-weight: 300;
+}
+.profileuserrightbarinfo{
+    margin-left: 20px;
+}
+.profilerightbartitle{
+    margin-bottom: 10px;
+   
+}
+.profilerightuserinfo{
+margin-bottom: 10px;
+}
+
+.profileusertext1{
+color: #899499;
+}
+.profileusertext2{
+    margin-left: 10px;
+    color:black;
+}
+.profilerightbartitlefriend{
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.profilerightbarclosefriendcontainer{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.profilerightbarclosefriend{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.profilerightbarclosefriendimg{
+    height: 75px;
+    width: 75px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.profilerightbarclosefriendname{
+    font-size: 12px;
+}
+
+
+
+.profilerightbottom{
+    display:flex;
+    margin-top: 20px;
+}
+@media (max-width: 720px) {  .profileright {
+
+    position: relative;
+    top: 65px; 
+    /* Adjust the height based on the navbar height */
+  }
+}

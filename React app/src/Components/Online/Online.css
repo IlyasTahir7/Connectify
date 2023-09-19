@@ -1,0 +1,41 @@
+.rightbarfrienditem{
+    list-style: none;
+    margin: 10px 0px;
+}
+.rightbaronlinefriend{
+    display: flex;
+    align-items: center;
+}
+.rightbaronlinefriendimg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left:12px;
+    cursor: pointer;
+}
+.rightbaronlinetag{
+background-color: #0FFF50;
+color: #0FFF50;
+height: 10px;
+width: 10px;
+border-radius: 50%;
+
+position: relative;
+top: -15px;
+left: -12px;
+border: 2px solid white;
+}
+
+@media (max-width: 720px) {
+
+    .rightbaronlinetag{
+
+        height: 5px;
+        width: 5px;
+        border-radius: 50%;
+        position: relative;
+        top: -15px;
+        left: -12px;
+        border: 2px solid #0FFF50;
+    }
+  } 

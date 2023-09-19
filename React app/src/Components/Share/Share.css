@@ -1,0 +1,74 @@
+.share{
+    background-color: white;
+
+}
+.sharecontainer{
+    padding: 10px;
+}
+.sharebox{
+
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 21px -7px rgba(0,0,0,1);
+-webkit-box-shadow: 1px 2px 21px -7px rgba(0,0,0,1);
+-moz-box-shadow: 1px 2px 21px -7px rgba(0,0,0,1);
+}
+.sharepersonimg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.shareinput{
+    border: none;
+    position: relative;
+    top:-14px ;
+    left: 10px;
+    font-size: 13px;
+    width: 200px;
+    outline: none;
+}
+.sharebottom{
+    display: flex;
+    align-items: center;
+}
+.shareoptions{
+    display: flex;
+    align-items: center;
+}
+.shareicontext{
+   margin-right: 40px;
+    position: relative;
+    left: -30px;
+}
+.shareoptiontext{
+    position: relative;
+    top: -25px;
+    left: 30px;
+}
+.shareoption{
+  
+    list-style: none;
+}
+.sharehr{
+    margin: 12px;
+}
+.sharebutton{
+    background-color: green;
+color: white;
+border: none;
+margin-right: 12px;
+border-radius: 4px;
+position: relative;
+padding: 5px 5px;
+font-size: 15px;
+bottom:12px ;
+}
+@media (max-width: 720px) {  .share {
+    flex: 2;
+    position: relative;
+    top: 65px; 
+    /* Adjust the height based on the navbar height */
+  }
+}

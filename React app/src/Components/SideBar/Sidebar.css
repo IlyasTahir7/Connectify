@@ -1,0 +1,94 @@
+.sidebar {
+    flex: 2.5;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: gray white; /* For Firefox */
+  }
+  
+  .sidebar::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  .sidebar::-webkit-scrollbar-thumb {
+    background-color: gray; /* Color of the thumb */
+    border-radius: 4px; /* Rounded corners for the thumb */
+  }
+  
+  .sidebar::-webkit-scrollbar-track {
+    background-color: #D3D3D3; /* Color of the track */
+  }
+  
+.sidebarlistitem{
+ margin-bottom: 15px;
+}
+.firstsidebaritem{
+    margin-top: 15px;
+}
+.sidebarlist{
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+  margin-left: 20px;
+  
+}
+.sidebarlistitemtext{
+    margin-left: 13px;
+}
+.sidebarlisticon{
+    position: relative;
+    top: 5px;
+}
+.sidebarbutton{
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+ position: relative;
+ right: -65px;
+ border-radius: 5px;
+ padding: 5px 15px;
+}
+.sidebarhr{
+    margin: 10px ;
+    border-color: grey;
+}
+.sidebarfriendlist{
+    padding: 0px;
+    margin-left: 20px;
+}
+.sidebarfrienditem{
+    list-style: none;
+margin-bottom: 15px;
+}
+.sidebarfriendimg{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+    top: 9px;
+object-fit: cover;
+    border: 3PX solid #3b5998;
+    cursor: pointer;
+}
+.sidebarfriendtext{
+ margin-left: 15px;
+}
+
+/* Custom styles for responsive sidebar */
+@media (max-width: 720px) {
+    .sidebar {
+      flex: 2;
+      position: relative;
+      top: 65px; 
+      /* Adjust the height based on the navbar height */
+    }
+    .sidebarbutton{
+        position: relative;
+        right: -30px;
+    }
+  }
+
+ 
+  
+
+

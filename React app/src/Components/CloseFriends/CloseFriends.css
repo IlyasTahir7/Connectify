@@ -1,0 +1,16 @@
+.sidebarfrienditem{
+    list-style: none;
+margin-bottom: 15px;
+}
+.sidebarfriendimg{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+    top: 9px;
+object-fit: cover;
+    border: 3PX solid #3b5998;
+}
+.sidebarfriendtext{
+ margin-left: 15px;
+}

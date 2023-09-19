@@ -1,0 +1,96 @@
+.post{
+    margin: 30px 10px 40px 10px;
+}
+
+.postcontainer{
+    padding: 10px 10px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 21px -7px rgba(0,0,0,1);
+    -webkit-box-shadow: 1px 2px 21px -7px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 2px 21px -7px rgba(0,0,0,1);
+}
+.posttop{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+.posttopleft{
+display: flex;
+justify-content:center;
+align-items: center;
+}
+.topleftuserimg{
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.topleftusername{
+    margin: 0px 15px 0px 10px;
+}
+.toplefttime{
+    font-size: 12px;
+}
+.postcenterimgdesc{
+    margin: 10px 0px;
+}
+.postcenterimg{
+    width: 100%;
+    max-height: 500px;
+    margin: 15px 0px;
+}
+.postbottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.postbottomleft{
+    display: flex;
+    align-items: center;
+}
+.postlikebutton{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.postlikecounter{
+    font-size: 15px;
+}
+.postcomments{
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+@media (max-width: 900px) {
+    .topleftusername {
+      font-size: 16px;
+    }
+  
+    .toplefttime {
+      font-size: 12px;
+    }
+  
+    .postcenterimgdesc {
+      font-size: 16px;
+    }
+  
+    .postlikecounter {
+      font-size: 14px;
+    }
+  
+    .postcomments {
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 720px) {  .post {
+    flex: 2;
+    position: relative;
+    top: 65px; 
+    /* Adjust the height based on the navbar height */
+  }
+}
