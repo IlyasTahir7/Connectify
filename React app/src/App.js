@@ -7,10 +7,17 @@ function App() {
   return (
   <>
 
+<<<<<<< HEAD
  <Profile/> //homepage
  {/* <Home/> */}
 {/* <Login/> */}
 {/* <Register/> */}
+=======
+ <Profile/> 
+ {/* <Home/> */}
+{/* <Login/> */}
+{/*<Register/>*/}
+>>>>>>> 8764aa9aef297a167093a3b193832a7ce6228571
   </>
   );
 }
